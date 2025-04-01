@@ -346,9 +346,19 @@ section{
 .project-web{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+}
+.btn-house{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.gradient-btn{
+    margin-left: 50px;
 }
 .projects{
     background-color: var(--second-bgcolor);

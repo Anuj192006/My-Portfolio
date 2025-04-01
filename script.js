@@ -7,3 +7,7 @@ menuIcon.onclick = ()=>{
     nav.classList.toggle("active");
     
 }
+
+function Refresh() {
+    location.reload();
+}
